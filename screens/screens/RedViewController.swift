@@ -16,15 +16,10 @@ class RedViewController: NumberedViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //Unwind Segues
+    // Got to VC that you want to wunwind to (root view controller)
+    // Leave the body empty
+    @IBAction func unwindToRed(_ sender: UIStoryboardSegue) {
+        print("Yay!")
     }
-    */
-
 }
